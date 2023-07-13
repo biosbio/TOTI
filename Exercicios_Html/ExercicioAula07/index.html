@@ -3,6 +3,7 @@
 
 <head>
    <meta charset="UTF-8">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>       
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
@@ -12,38 +13,42 @@
 <body>
    <!--    CABEÇARIO -->
    <header>
-      <div>
-         <h4>Autonomy</h4>
-         <nav>
-            <ul>
+      <div id="titulo">
+         <h2 >Autonomy</h2>
+         
+            <ul id="nave">
                <li>Homepage</li>
                <li>Left Sidebar</li>
                <li>Right Sidebar</li>
                <li>No Sidebar</li>
             </ul>
+     
+
       </div>
-      <div>
-         <figure id="principal">
-            <img src="images/foto1.jpg" alt="Foto de tela principal"width="500">
-         </figure>
+   
+      <div class="principal">
+       
+        <img src="images/foto1.jpg" alt="Foto de tela principal">
+        
       </div>
-      </nav>
+     
    </header>
+   <hr>
    <!--    MAIN -->
    <main>
       <!--       PRIMEIRA DIVISÃO  -->
-      <section >
-         <article>
-            <div id="teste">
-               <img src="images/foto2.jpg" alt="Foto2" width="250">
+      <section class="Sect1">
+         <article id="card1">
+            <div >
+               <img src="images/foto2.jpg" alt="Foto2">
                <h2>Etiam posure </h2>
                <p>
-                  Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para<br> nos ouvir, e como um observador estranho<br> (que deveríamos ser) esquecemos de olhar
-               </p>
+                Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para<br> nos ouvir, e como um observador estranho<br> (que deveríamos ser) esquecemos de olhar
+            </p>
 
             </div>
          </article>
-         <article>
+         <article id="card2">
             <div>
                <img src="images/foto3.jpg" alt="Foto3" width="250">
                <h2>Fusce ultrices </h2>
@@ -52,7 +57,7 @@
                </p>
             </div>
          </article>
-         <article>
+         <article id="card3">
             <div>
                <img src="images/foto4.jpg" alt="Foto4" width="250">
                <h2>Donec dictum </h2>
@@ -61,7 +66,7 @@
                </p>
             </div>
          </article>
-         <article>
+         <article id="card4">
             <div>
                <img src="images/foto5.jpg" alt="Foto5" width="250">
                <h2>Meacenas luctus </h2>
@@ -73,83 +78,99 @@
 
       </section>
       <!--       SEGUNDA=A DIVISÃO  -->
-      <section >
+      <section class="Sect2">
 
-         <aside >
-            <h2>Praesent eleifend </h2>
-            <article>
+       
+                
+          
+            <div class="lado">
+                
 
-               <img src="images/A.JPG" alt="Foto A" width="100">
+                <ul id="lado1">
+                    <h2>Praesent eleifend </h2>
+               
+                <li>
+
+               <img src="images/A.JPG" alt="Foto A">
                <p>
                   Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
                </p 
-            </article>
-            <article>
+                 </li>
+                <li>
 
-                <img src="images/B.JPG" alt="Foto B" width="100">
+                <img src="images/B.JPG" alt="Foto B" >
                   <p>
                      Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
                   </p 
-            </article>
-            <article>
+                  </li>
+                <li>
 
-                <img src="images/C.JPG" alt="Foto C" width="100">
+                <img src="images/C.JPG" alt="Foto C" >
                      <p>
                         Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
-            </p </article>
+            </p 
+                </li>
+        </ul>
 
-         </aside>
-         <aside>
+        </div>
+         <div class="meio">
+            <ul id="meio1">
             <h2>Maecenas lectus </h2>
-            <article class="testar">
+
+                <li>
 
                <img src="images/foto6.jpg" alt="Foto6" width="100">
                <p>
                   Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
-               </p </article>
-               <article>
+               </p
+               </li>
+               <li>
 
                   <img src="images/foto7.jpg" alt="Foto7" width="100">
                   <p>
                      Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
-                  </p </article>
-                  <article>
+                  </p </li>
+                  <li>
 
                      <img src="images/foto8.jpg" alt="Foto8" width="100">
                      <p>
                         Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
-                     </p </article>
+                     </p </li>
+            </ul>
 
-         </aside>
-         <aside>
+        </div>
+         <div id="fim">
             <h2>Aenean elementum facilisis ligula </h2>
-            <article>
+        
 
-               <img src="images/foto9.jpg" alt="Foto9" width="500">
+               <img src="images/foto9.jpg" alt="Foto9" >
                <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptatibus, laboriosam tempora veniam quae quibusdam, ducimus nobis porro debitis consequatur ea incidunt at, harum omnis quidem commodi amet magnam iusto!
                   Acostumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante.Acumamos tanto com a rotina do dia-a-dia <br>que esquecemos de parar por um instante para
-               </p </article>
+               </p
 
-         </aside>
+            </div>
 
       </section>
       <!--       TERCEIRA DIVISÃO  -->
-      <section >
-        <div>
+      <section class="terc">
+        <div id="um">
             <h2>Maecenas luctus lectus at sapien</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas ipsum suscipit praesentium! Dolore natus officiis possimus nemo delectus distinctio ullam placeat cumque eligendi ratione, voluptatibus harum asperiores atque omnis!</p>
               
-        </div>
-        <div>
+        </div >
+        <div id="dois">
             <h2>Lectus at sapien</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus maiores facilis fugiat maxime officia magnam accusamus? Saepe veritatis, sequi, non at reiciendis optio, deserunt quam obcaecati maiores quos modi?
             </p>
         </div>
-
+       
       </section>
+     
    </main>
-
+   <footer>
+    <p> Criado por: <span> <i class='fa fa-instagram red-color'></i></span> <a href="https://www.instagram.com/bwotidem/ target="_blank"> Biwotidem</a></p>
 </body>
 
 </html>
