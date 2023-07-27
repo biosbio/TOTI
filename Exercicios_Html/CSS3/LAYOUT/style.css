@@ -1,0 +1,260 @@
+*{
+    font-family: 'Times New Roman', Times, serif ;
+ 
+}
+.cabesa{
+    text-align: center;
+    margin: 50px 0;     
+}
+
+
+.titulo1{
+    display: block;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-weight: 700px;
+    font-size: 32px;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+   
+}
+.titulo2{
+    font-weight: 400px;
+    line-height:33px;
+   font-size: 15px;
+ 
+}
+.paises{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 325px;
+    width: 546px;
+    position: relative;
+    margin: 0 auto;
+  
+}
+ 
+.fotowiki{
+
+    width:200px;
+    height: 183px;
+   
+} 
+.Listapaises a{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold 700px;
+    text-decoration: none;
+}
+.paises nav{
+    height: 0;
+    width: 0;
+   
+}
+.artigos{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    font-weight:200px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #54595d;
+
+   
+}
+.idioma{
+    display: block;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3366cc;
+   
+}
+.pais{
+    position: absolute;
+ 
+}
+.pais1{
+    top: 0;
+    right: 60%;
+}
+.pais2{
+    top: 0;
+    left: 60%;
+}
+.pais3{
+top: 20%;
+right: 70%;
+}
+.pais4{
+    top: 20%;
+    left: 70%;
+    
+}
+.pais5{
+     top: 40%;
+    right: 72%;
+}
+.pais6{
+    top: 40%;
+    left: 72%;
+    
+}
+.pais7{
+    top: 60%;
+right: 70%;
+    
+}
+.pais8{
+    top: 60%;
+left: 70%;
+    
+}
+.pais9{
+    top: 80%;
+    right: 60%;
+    
+}
+.pais10{
+    top: 80%;
+    left: 60%;
+    
+}
+.buscaconteiner{
+    
+    margin: 10px auto;
+    width: fit-content;
+    border: 1px solid #999999;
+
+}.buscaconteiner:hover{
+    border: 1px solid #999999;
+}
+
+.buscaTexto{
+    width: 394px;
+    height: 44px;
+border: none;
+    padding: 8px 64px 8px 12px;
+  
+}
+
+.buscaTexto,
+.buscaidioma,
+.botaobusca{
+    border: none;
+    border-color: #447FF5;
+ 
+}
+.botaobusca{
+    width: 45px;
+    height: 45px;
+    margin: 0;
+    background-color:#447FF5 ;
+    cursor: pointer;
+}
+.buscaidioma{
+    cursor: pointer;
+}
+.leroutroidioma{
+    position: relative;
+
+    display: inherit;
+    background-color: #f8f9fa;
+    color: #36c;
+    border-radius: 2px;
+    border: 1px solid #a2a9b1;
+    padding: .6rem 1.2rem;
+    margin: 10px auto;
+    width: 275px; 
+    height: 36px;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 14px;
+    padding: 6px 12px;
+}
+
+.rodape_suporte_imgem,
+.apps_imagem{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.rodape_links{
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.rodape_links:hover{
+    text-decoration: underline;
+}
+.android, .ios{
+   margin-top: 10px;
+    height: 38px;
+}
+
+.wikisite_imagem{
+    width: 100px;
+    height: 100px;
+    
+}
+.pedipagina{
+    border-top: 1px solid #c8ccd1;
+    border-bottom: 1px solid #c8ccd1;
+    padding: 40px 55px;
+    display: flex;
+}
+.rodapeinfo{
+    max-width: 300px;
+  
+
+}
+.rodape_apps{
+    margin-top: 25px;
+    background-color: #f8f9fa;
+}
+.rodape_suporte, .rodape_apps{
+    display: flex;
+    padding: 10px;
+   
+}
+
+  
+.wikisites{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+
+}
+.wikiitem a{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.wikisite_info{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    width: 190px;
+}
+.descrição{
+    color:#54595d;
+}
+.licensa{
+width: fit-content;
+margin: 20px auto;
+text-decoration: none;
+}
+.licensa a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.licensa a:hover{
+    text-decoration: underline;
+}
